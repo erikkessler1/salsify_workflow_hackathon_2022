@@ -2,9 +2,11 @@
   "private": true,
   "scripts": {
     "clean": "rm -r dist/",
-    "build": "tsc"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "devDependencies": {
+    "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   }
 }
